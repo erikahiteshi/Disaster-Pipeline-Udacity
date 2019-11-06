@@ -19,8 +19,12 @@ This project will include a web app where a worker could input a new message and
 
 3. Go to http://0.0.0.0:3001/
 
-# Key Files
+# Important Files
 - data/process_data : The ETL pipeline which processes the data in a format suitable to run our Machine Learning model on
 - models/train_classifier.py : The Machine Learning pipeline which trains the model based on data given to us by Figure Eight. Using this data, the model is now ready to predict future messages.
 - run.py : This file starts the Python server for the web app and prepare visualizations.
 - app/templates/.html : These are the HTML template files for the app
+
+# References/Acknowledgments
+- Thanks to Udacity for providing the base code (https://www.udacity.com/)
+- Thanks to Figure Eight for providing the data (https://www.figure-eight.com/)
